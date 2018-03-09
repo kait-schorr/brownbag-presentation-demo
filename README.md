@@ -52,7 +52,7 @@ Useful extensions, features you may not know about, and the importance of keyboa
 
 ## General
 
-    1. Save File `Ctrl-S`
+    1. Save File `Ctrl-S` try this.
 
 ## Text-Editing
 
