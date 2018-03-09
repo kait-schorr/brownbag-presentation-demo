@@ -68,7 +68,8 @@ Useful extensions, features you may not know about, and the importance of keyboa
 
 1.  `CTRL-X` Cut text.
 2.  `CTRL-V` Paste text.
-3.  `CTRL-A` Select ALL THE THINGS.
+3.  `CTRL-C` Copy text.
+4.  `CTRL-A` Select ALL THE THINGS.
 
 ## Text Maneuvering
 
