@@ -1,6 +1,6 @@
-let numberOfDogs = prompt("How many Dogs do you have?");
+let numberOfDogs = prompt("How many dogs do you have?");
 // let numberOfPeople = prompt("How many people do you have?");
-//Difference 1
+
 // while (numberOfDogs <= numberOfPeople) {
 //   console.log("Move Along. Nothing to See Here");
 // }
@@ -13,7 +13,7 @@ function tooManyDogs() {
     clearInterval(catTimer);
   }
 }
-//Difference 2
+//Here's a difference
 function addDogs() {
   let text = document.getElementsByClassName("Dogs")[0].innerHTML;
   if (numberOfDogs > 0) {
@@ -23,12 +23,12 @@ function addDogs() {
   document.getElementsByClassName("Dogs")[0].innerHTML = text;
   numberOfDogs--;
 }
+//Another difference
 let catPics = document.querySelectorAll("img");
-//SPOT THE DIFFERENCES
+
 let catTimer = setInterval(() => {
   addDogs();
 }, 1000);
 let personTimer = setInterval(() => addPerson(), 500);
 catPics[0].innerHTML = "<div>X</div>";
-
 //More differences
