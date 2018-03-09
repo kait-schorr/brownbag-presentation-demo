@@ -4,7 +4,7 @@ let numberOfDogs = prompt("How many dogs do you have?");
 // while (numberOfDogs <= numberOfPeople) {
 //   console.log("Move Along. Nothing to See Here");
 // }
-
+//Change
 function tooManyDogs() {
   if (numberOfDogs > numberOfPeople) {
     return confirm("You've got a problem.");
