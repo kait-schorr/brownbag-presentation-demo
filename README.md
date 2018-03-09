@@ -52,13 +52,21 @@ Useful extensions, features you may not know about, and the importance of keyboa
 
 ## General
 
-    1.
-
-Save File `Ctrl-S` try this.
+1.  `CTRL-S` Save your file.
+2.  `CTRL-Z` Undo last action.
+3.  `CTRL-Y` Redo last action.
 
 ## Text-Editing
 
+1.  `CTRL-X` Cut text.
+2.  `CTRL-V` Paste text.
+3.  `CTRL-A` Select ALL THE THINGS.
+
 ## Text Dancing
+
+1.  `CTRL-Left Arrow/Right-Arrow` Move cursor to beginning/end of previous/next word
+2.  `CTRL-Backspace/Delete` Delete previous/next word
+3.  `CTRL-Home/End` Move cursor to beginning/end of page.
 
 ## VSCode Specific
 
