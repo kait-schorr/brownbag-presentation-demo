@@ -49,8 +49,12 @@ Useful extensions, features you may not know about, and the importance of keyboa
 4.  [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
 5.  [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+6.  [ReactJS Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+    ![alt text](https://github.com/xabikos/vscode-react/raw/master/images/component.gif "Snippet Demo")
 
 ## Themes (Colors!!)
+
+* [Base16](https://marketplace.visualstudio.com/items?itemName=AndrsDC.base16-themes) - A nice set of themes to choose from
 
 # Keyboard Shortcuts
 
@@ -73,6 +77,8 @@ Useful extensions, features you may not know about, and the importance of keyboa
 3.  `CTRL-Home/End` Move cursor to beginning/end of page.
 
 ## VSCode Specific
+
+* Multi-Cursor Magic
 
 #### Cheatsheets
 
