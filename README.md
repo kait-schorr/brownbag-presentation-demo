@@ -78,7 +78,9 @@ Useful extensions, features you may not know about, and the importance of keyboa
 
 ## VSCode Specific
 
-* Multi-Cursor Magic
+I heard you liked keyboard shortcuts... `CTRL-K CTRL-S`
+
+Multi-Cursor Magic
 
 #### Cheatsheets
 
