@@ -1,32 +1,31 @@
-let numberOfCats = 20;
-let numberOfPeople = 2;
+let numberOfDogs = prompt("How many Dogs do you have?");
+// let numberOfPeople = prompt("How many people do you have?");
 
-// while (numberOfCats <= numberOfPeople) {
+// while (numberOfDogs <= numberOfPeople) {
 //   console.log("Move Along. Nothing to See Here");
 // }
 
-while (tooManyCats()) {
-  console.log("Let's add more people.");
-  numberOfPeople++;
-}
-function tooManyCats() {
-  if (numberOfCats > numberOfPeople) {
-    console.log("You've got a problem.");
-    return true;
+function tooManyDogs() {
+  if (numberOfDogs > numberOfPeople) {
+    return confirm("You've got a problem.");
   } else {
-    console.log("You're the perfect human specimen.");
-    return false;
+    alert("You're the perfect human specimen.");
+    clearInterval(catTimer);
   }
 }
-function printCats() {
-  let text = "";
-  for (let i = 0; i < numberOfCats; i++) {
+function addDogs() {
+  let text = document.getElementsByClassName("Dogs")[0].innerHTML;
+  if (numberOfDogs > 0) {
     text +=
       '<img src="img/cat.jpg" width="200px" height="200px" style="border-radius: 50%">';
   }
-  document.getElementsByClassName("cats")[0].innerHTML = text;
+  document.getElementsByClassName("Dogs")[0].innerHTML = text;
+  numberOfDogs--;
 }
 let catPics = document.querySelectorAll("img");
 
-printCats();
+let catTimer = setInterval(() => {
+  addDogs();
+}, 1000);
+let personTimer = setInterval(() => addPerson(), 500);
 catPics[0].innerHTML = "<div>X</div>";

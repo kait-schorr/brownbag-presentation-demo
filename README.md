@@ -66,7 +66,7 @@ Useful extensions, features you may not know about, and the importance of keyboa
 2.  `CTRL-V` Paste text.
 3.  `CTRL-A` Select ALL THE THINGS.
 
-## Text Dancing
+## Text Maneuvering
 
 1.  `CTRL-Left Arrow/Right-Arrow` Move cursor to beginning/end of previous/next word
 2.  `CTRL-Backspace/Delete` Delete previous/next word
@@ -74,4 +74,12 @@ Useful extensions, features you may not know about, and the importance of keyboa
 
 ## VSCode Specific
 
+#### Cheatsheets
+
+* [Linux](https://go.microsoft.com/fwlink/?linkid=832145)
+* [Mac](https://go.microsoft.com/fwlink/?linkid=832143)
+* [Windows](https://go.microsoft.com/fwlink/?linkid=832145)
+
 ## Resources for Practicing
+
+* [ShortcutFoo](https://www.shortcutfoo.com/)
