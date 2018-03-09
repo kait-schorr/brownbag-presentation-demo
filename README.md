@@ -1,16 +1,20 @@
 # Getting the Most Out of VSCode
 
----
-
 Useful extensions, features you may not know about, and the importance of keyboard shotcuts.
 
 # Basic Functionality
 
 ## File Explorer
 
+![alt text](./img/basics "The File Explorer")
+
 ## Search & Replace
 
+![alt text](./img/search "The Search & Replace")
+
 ## Git Integration (Seriously Awesome)
+
+![alt text](./img/git "Git")
 
 ## Debugger (Not That Scary...)
 
